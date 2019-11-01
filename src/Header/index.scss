@@ -1,0 +1,32 @@
+.jiemo-header {
+  width: 100%;
+  height: 60px;
+  background-color: #c32625;
+  color: #fff;
+  position: relative;
+  .jiemo-logo {
+    width: 160px;
+    height: 60px;
+    line-height: 60px;
+    img {
+      position: relative;
+      top: 5px;
+      margin-right: 10px;
+    }
+  }
+  .jiemo-icon-minus {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+  }
+  .jiemo-icon-max {
+    position: absolute;
+    top: 20px;
+    right: 50px;
+  }
+  .jiemo-icon-close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+}

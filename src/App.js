@@ -5,10 +5,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        electron react 
-        <Home />
-      </header>
+      <Home />
     </div>
   );
 }

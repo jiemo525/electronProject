@@ -1,0 +1,33 @@
+.jiemo-home {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .jiemo-home-header {
+    // height: 80px;
+  }
+
+  .jiemo-home-content {
+    display: flex;
+    flex: 1;
+
+    .jiemo-home-left-menu {
+      width: 200px;
+      height: calc(100vh - 100px);
+      overflow-y: scroll;
+      overflow-x: hidden;
+      background-color: darkgrey;
+    }
+    .jiemo-right-content {
+
+    }
+  }
+
+  .jiemo-footer {
+    height: 80px;
+  }
+
+}
